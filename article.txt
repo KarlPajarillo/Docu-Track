@@ -1,0 +1,14 @@
+admin@admin.com
+admin123
+
+//////////////////////////////////IMPORTANT!!!//////////////////////////////////////////////////////
+Upon cloning the file please create a file named "db_connect.php" and paste the following code:
+
+******  Code starts here  *******
+
+<?php 
+    $conn= new mysqli('localhost','root','','test')or die("Could not connect to mysql".mysqli_error($con));
+
+******  Code ends here  *********
+
+//////////////////////////////////IMPORTANT!!!//////////////////////////////////////////////////////
